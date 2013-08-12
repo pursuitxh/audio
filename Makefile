@@ -1,6 +1,6 @@
 .PHONE:clean
 
-sound: sound_ring_buffer.c
+sound: audio_ring_buffer.c
 	gcc -o $@ $< -lasound
 clean:
 	rm -rf sound
